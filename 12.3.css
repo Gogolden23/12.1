@@ -1,0 +1,44 @@
+.item-description{
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+.item-completed:checked + .item-description{
+    background-color: aqua;
+    text-decoration: line-through;
+    font: optional;
+}
+#addLearning{
+    padding: 8px 14px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    font-style: italic;
+    display: block;
+    margin: auto
+}
+body{
+    background-color: coral;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    text-align: center;
+    text-decoration: wavy;
+}
+.list{
+text-align: center;
+}
+.datetime{
+    font-size: medium;
+    font-style: italic;
+    
+    background-color: black;
+    box-shadow: inset;
+    color: aqua;
+}
+audio-player .controls{
+    position: relative;
+}
